@@ -42,6 +42,8 @@ body{
   line-height: 20px;
   color: hsl(292, 16%, 49%);
   width: 120%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .active{
   display: block;
@@ -85,6 +87,7 @@ margin: 0;
 .header{
   display: flex;
   align-items: center;
+  margin-bottom: -20px;
 }
 .button{
   cursor: pointer;
