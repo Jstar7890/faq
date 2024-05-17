@@ -1,0 +1,113 @@
+.attribution { 
+  font-size: 14px; 
+  text-align: center; 
+  padding: 4% 0% 0% 0%;
+  align-self: center;
+  justify-self: center;
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+  color: black;
+ }
+ .header h1{
+  font-size: 40px;
+ }
+body{
+  margin: 0;
+  padding: 0;
+  background-color:hsl(275, 100%, 97%);
+  height: 100vh;
+  display: flex;
+  position: RELATIVE;
+  flex-direction: column;
+  font-family: Work Sans,Arial;
+  font-size: 12px;
+
+}
+.top h2{
+  transition: all ease-in-out 0.15s;
+}
+.top h2:hover{
+  color:#AD28EB;
+  cursor: pointer;
+}
+.text{
+  display: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: hsl(292, 16%, 49%);
+  width: 120%;
+}
+.active{
+  display: block;
+}
+.background-top{
+/* Add the second SVG as the background image */
+background-image: url('assets/images/background-pattern-mobile.svg');
+position: absolute;
+top: 0;
+left: 0;
+width: 100vw;
+height: 30%; /* Adjust as needed */
+/* background-size: 100% 100%; */
+padding: 0;
+margin: 0;
+}
+.inner{
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  z-index: 100;
+  background-color: hsl(275, 100%, 97%);
+  margin-top: 100px;
+  width: 87vw;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.10);
+  border-radius: 10px;
+}
+.outer{
+  padding: 20px;
+}
+.top{
+  display: grid;
+  grid-template-columns: 86% 1fr;
+  align-items: center;
+  column-gap: 10px;
+}
+.star{
+  height: 100%;
+  margin-right: 2%;
+}
+.header{
+  display: flex;
+  align-items: center;
+}
+.button{
+  cursor: pointer;
+}
+@media(min-width:712px){
+  .background-top{
+/* Add the second SVG as the background image */
+background-image: url('assets/images/background-pattern-desktop.svg');
+position: absolute;
+top: 0;
+left: 0;
+width: 100vw;
+height: 40%; /* Adjust as needed */
+/* background-size: 100% 100%; */
+padding: 0;
+margin: 0;
+}
+.inner{
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  z-index: 100;
+  background-color: hsl(275, 100%, 97%);
+  margin-top: 150px;
+  width: 30vw;
+}
+.outer{
+  padding: 20px;
+}
+}
