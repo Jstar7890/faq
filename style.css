@@ -73,6 +73,7 @@ margin: 0;
 }
 .outer{
   padding: 20px;
+  background-color:white;
 }
 .top{
   display: grid;
